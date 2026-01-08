@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* shared css */
+.body_width{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container{
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.btn{
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #469165;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 13px 16px;
+  cursor: pointer;
+}
+
+/* main css */
+
+/* navber style  */
+#header{
+  padding: 24px 0;
+}
+#header .nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .nav .nav_logo{
+  max-width: 140px;
+  max-height: 60px;
+}
+#header .nav .nav_logo img{
+  width: 100%;
+}
+#header .nav .nav_logo .nav_menu{}
+.nav_menu ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.nav_menu ul li{
+  list-style: none;
+  padding: 12px 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.nav_menu ul li:hover{
+  border: 1px solid black;
+   transition: all;
+}
+.nav_menu ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.nav_btn:hover{
+  color: #469165;
+  background-color: white;
+  border: 1px solid #469165;
+  transition: all;
+}
