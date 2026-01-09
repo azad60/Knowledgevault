@@ -165,3 +165,116 @@
   height: 20px;
   margin-right: 10px;
 }
+/* note section style */
+#notes_section{
+  padding: 120px 0;
+}
+.notes_section_head{
+  margin-bottom: 44px;
+  text-align: center;
+}
+.notes_section_head h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+}
+.notes_section_head p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: #627382;
+}
+.notes_cards{
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.notes_cards .notes_card_item{
+  max-width: 322px;
+  padding: 70px 3px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+.notes_cards .notes_card_item img{
+  width: 60px;
+  height: 60px;
+  background-color: #F13529;
+  padding: 14px;
+  border-radius: 100%;
+}
+.notes_cards .notes_card_item h3{
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #001931;
+  margin-top: 16px;
+}
+.notes_cards .notes_card_item p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 16px;
+}
+/* Brain section style  */
+#brain_section{
+  padding-bottom: 120px;
+}
+#brain_section .brain_main{
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+}
+.brain_main .brain_main{
+  max-width: 600px;
+}
+.brain_main .brain_main img{
+  width: 100%;
+}
+
+.brain_contents{}
+.brain_contents h4{
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.brain_contents h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.brain_contents p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.brain_contents ul{
+  margin-top: 40px;
+}
+.brain_contents ul li{
+  list-style: none;
+  margin-bottom: 16px;
+}
+.brain_contents ul li a{
+  text-decoration: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.brain_contents ul li a img{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.brain_contents ul li a span{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
